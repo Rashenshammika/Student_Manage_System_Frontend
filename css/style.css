@@ -1,0 +1,56 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #f8e7f9, #d4e6ff);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#dropZone {
+    width: 80%;
+    height: 100px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #999;
+}
+
+#dropZone.dragover {
+    border-color: #000;
+    background-color: #f0f0f0;
+}
+
+#preview{
+    max-width: auto;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #f8e7f9, #d4e6ff);
+}
+
+.table-wrapper {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: auto; /* Enables horizontal scrolling */
+}
+
+#displayImage{
+    max-width: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.form-label-coustom{
+    margin-left: 5px;
+    font-weight: bold;
+}
